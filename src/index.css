@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }   
+#course_icon-1{
+     margin-top: 141px;
+  }
+  
+#course_icon-2{
+      margin-top: 200px;
+   }
+  
+#course_icon-3{
+      margin-top: 262px;
+   }
+#course:active #course_icon{
+      visibility: hidden;
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+#main_nav::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+#main_nav {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  }
