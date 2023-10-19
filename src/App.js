@@ -12,7 +12,7 @@ function App() {
     {/* <Sidebar/> */}
     <BrowserRouter>
     <Routes>
-      <Route element={<Sidebar />}>
+      <Route element={<Sidebars />}>
         <Route path="/"  element={<Home/>} />
         <Route path="/profile"  element={<Profile />} />
 
@@ -30,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+// pavan
